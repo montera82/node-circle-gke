@@ -26,7 +26,7 @@ jobs:
     docker:
       - image: google/cloud-sdk
     environment:
-      - PROJECT_NAME: node-circle-gke"
+      - PROJECT_NAME: "node-circle-gke"
       - GOOGLE_PROJECT_ID: "edwin-k8s-practice"
       - GOOGLE_COMPUTE_ZONE: "us-central1-a"
       - GOOGLE_CLUSTER_NAME: "standard-cluster-1"
